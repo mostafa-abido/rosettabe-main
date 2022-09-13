@@ -1,0 +1,15 @@
+import 'react-native-gesture-handler';
+import { registerRootComponent } from 'expo';
+
+import App from './App';
+
+import NotificationService from './src/services/notifications';
+import BackgroundMessageService from './src/services/bgmessaging';
+
+NotificationService();
+BackgroundMessageService();
+
+// registerRootComponent calls AppRegistry.registerComponent('main', () => App);
+// It also ensures that whether you load the app in Expo Go or in a native build,
+// the environment is set up appropriately
+registerRootComponent(App);

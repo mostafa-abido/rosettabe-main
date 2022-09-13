@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.label-required {
+  display: inline;
+  text-align: center;
+  vertical-align: middle;
+}

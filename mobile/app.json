@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "English Rose",
+    "slug": "englishrose-care",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "plugins": [
+      "@notifee/react-native"
+    ],
+    "android": {
+      "package": "care.englishrose"
+    },
+    "ios": {
+      "bundleIdentifier": "care.englishrose"
+    }
+  }
+}

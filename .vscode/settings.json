@@ -1,0 +1,8 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "php.validate.enable": false,
+  "php.suggest.basic": false
+}
